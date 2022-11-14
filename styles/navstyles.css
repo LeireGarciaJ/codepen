@@ -1,0 +1,84 @@
+.navigation-wrapper{
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    margin:0px;
+    
+}
+
+.navigation-wrapper{
+    display:flex;
+    justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;  
+}
+
+.navigation-wrapper> .left-column> .logo img{
+    width: 200px;
+    height: 100%;
+    }
+
+.navigation-wrapper>.center-column> .links-wrapper> .nav-links{
+        width: 600px;
+        display:flex;
+        justify-content: space-between;
+        color:grey;
+        font-size: 1.5em;
+       }
+    
+
+.navigation-wrapper>.center-column> .links-wrapper>.nav-links a{
+    text-decoration: none;
+    color:white;
+}
+
+.navigation-wrapper>.center-column> .explore{
+    width: 92px;
+    display:flex;
+    justify-content: flex-end;
+    color:yellow;
+    font-size: 0.75em;    
+}
+
+.navigation-wrapper>.center-column> .spark{
+    color:grey;
+      
+}
+
+
+.navigation-wrapper>.right-column{
+    width: 400px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white;
+}
+
+.right-column>.create{
+    background-color: #494d5f;
+    padding: 15px 25px;
+    border-radius: 2px;
+}
+
+.right-column> .create i{
+    color:#19c919;
+    margin-left: 5px;
+    font-size: 1.15em;
+}
+
+.right-column>.icon i{
+    font-size: 2em;
+    color:#494d5f;
+}
+
+.right-column>.login{
+    background-color: #494d5f;
+    padding: 15px 20px;
+    border-radius: 2px;
+}
+
+.right-column>.signup{
+    background-color: #494d5f;
+    padding: 15px 20px;
+    border-radius: 2px;
+}
